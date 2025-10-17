@@ -1,0 +1,223 @@
+body{
+    font-family: "Plus Jakarta Sans", sans-serif !important; 
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.container{
+    flex: 1;
+}
+
+
+.navbar{
+    background-color: #fff;
+}
+.fa-compass-drafting{
+    color: #fe424d;
+    font-size: 2rem;
+}
+.nav-link{
+    color: #222222 !important;
+}
+
+.search{
+    display: flex;
+    margin-left: 20rem !important;
+}
+.search-btn{
+    background-color: #fe424d !important;
+    color: white !important;
+    border-radius: 3rem !important;
+    padding: 0 1.1rem 0 1rem !important;
+    margin-left: 1rem !important;
+}
+.navbar-collapse {
+  background-color: rgb(255, 255, 255); /* Prevents transparent overlap */
+  margin-top: 0.15rem;
+  padding: 0rem 1rem 0rem 1rem;
+  text-align: end;
+}
+
+
+
+.search-btn:hover{
+    background-color: #fe424d !important;
+    color: white !important;
+    border-radius: 2rem !important;
+}
+.search-btn i{
+    display: inline !important;
+    margin-right: 0.5rem !important;
+}
+.search-input{
+    border-radius: 2rem !important;
+    padding-left: 2.5rem !important;
+}
+
+
+
+/* Footer */
+.f-info-links a{
+    text-decoration: none;
+    color: #222222;    
+}
+.f-info-links a:hover{
+    text-decoration: underline;
+}
+.f-info{
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+    margin-top: 2rem;
+}
+.f-info div{
+    padding: 0.3rem;
+}
+.f-info-social{
+    font-size: 1.6rem;
+    color: #222222;
+}
+.f-info-social i{
+    padding-right: 0.7rem;
+}
+
+/* Cards */
+.listing-card{
+    border: none !important;
+    margin-top: 2rem !important;
+}
+.card-img-top{
+    border-radius: 1rem !important;
+    width: 100% !important;
+    object-fit: cover !important;
+}
+.card-body{
+    padding: 0rem !important;
+}
+.card-img-overlay{
+    opacity: 0;
+}
+.card-img-overlay:hover{
+    background-color: white;
+    opacity: 0.2;
+}
+
+/* Show */
+
+.show-img{
+    height: 35vh;
+}
+
+.show-btn{
+    display: flex;
+}
+
+/* map */
+#map {
+  height: 300px;   /* Height of the map */
+  width: 100%;     /* Full width of the page */
+}
+
+.category{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.category div{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-right: 1rem;
+}
+
+    #filters{
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        overflow-x: auto;
+        scrollbar-width:thin;      
+    }
+    .filter a{
+        text-decoration: none;
+        color: black;
+    }
+    .filter{
+        text-align: center;
+        margin-top: 1.5rem;
+        margin-right: 1.9rem;
+        opacity: 0.8;
+        font-size: 0.95rem;
+    }
+    .filter:hover{
+        opacity: 1;
+        cursor: pointer;
+    }
+    
+    .tax-info{
+        display: none;
+        font-size: 0.7rem;
+    }
+    .tax-toggel{
+        flex-shrink: 0; /* keep toggle text in inline */
+        width: 16.5rem;
+        height: 3rem;
+        padding-left: 1.2rem;
+        padding-right: 1.2rem;
+        padding-top: 0.7rem;
+        padding-bottom: 0.7rem;
+        border: 2px solid black;
+        border-radius: 1.2rem;
+       
+    }
+
+    
+/* Media query */
+
+@media(max-width:600px){
+    .search{
+        margin: 0rem;
+    }
+    .navbar-nav .explore{
+        display: none !important;
+    }
+    .search-input{
+        width: 9rem !important;
+        padding-left: 1rem !important;
+    }
+    .search-btn{
+        margin: 0rem 1rem 0rem 0rem !important;
+        padding: 0% !important;
+        width: 6rem !important;
+    }
+    .navbar-brand{
+        margin: 0rem !important;
+    }
+}
+
+@media(max-width :392px){
+    .navbar-brand{
+        display: none !important;
+    }
+}
+/* media query for show page  */
+@media (max-width: 768px) {
+    
+}
+
+/* show card */
+
+.show-card{
+    padding: 1rem;
+}
+
+.show-btn a{
+    margin-right: 2rem;
+}
+
+.show-login{
+    margin: 1rem !important;
+}
+
+.show-signUp{
+    margin: 1rem !important;
+}

@@ -1,0 +1,25 @@
+<% layout('layouts/boilerplate') %>
+<div class="row show-login">
+        <div class="col-md-4 offset-md-4">
+            <br>
+            <h3 style="text-align: center; margin-top: 1rem; margin-bottom: 0.5rem; color :#D70466">Login On Wanderlust</h3>
+            <form method="post" action="/login" novalidate class="needs-validation">
+                <div class="mb-3">
+                    <label for="username" class="form-label">Username</label>
+                    <input type="text"  name="username" id="username" placeholder="Enter Username" class="form-control" required>
+                </div>
+
+                <div class="mb-3">
+                    <label for="password" class="form-label">Password</label>
+                    <input type="password"  name="password" id="password" placeholder="Enter Password" class="form-control" required>
+                </div>
+
+                <br>
+                <div class="d-grid gap-2 col-6 mx-auto">
+                    <button class="btn btn-primary" style="background:linear-gradient(to right, #E61E4D 0%, #E31C5F 50%, #D70466 100% )">Login</button>
+                </div>
+                <br>
+                <br>
+            </form>
+        </div>
+    </div> 
