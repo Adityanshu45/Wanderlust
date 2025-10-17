@@ -27,7 +27,7 @@ It’s built with the goal of creating a simple, clean, and extensible travel-st
 Wanderlust is designed for **property owners and travelers**.  
 Owners can list their homes with descriptions and images, while users can explore stays, view property details, and leave reviews.  
 
-It aims to provide a smooth browsing experience similar to Airbnb, with a modern and responsive UI.
+It aims to provide a smooth browsing experience , with a modern and responsive UI.
 
 ---
 
@@ -76,44 +76,35 @@ SECRET=YourSecretKey
 
 🚀 Usage
 
-Node app.js
-and open http://localhost:8080/listings
+   Node app.js
+   and open http://localhost:8080/listings
 
 🏗️ Future Improvements
 
-🏨 Hotel booking system with date selection and pricing.
-
-💳 Payment integration (Stripe or Razorpay).
-
-🗺️ Google Maps integration for location preview.
-
-📆 Booking calendar for hosts.
-
-📨 Notification system (email or in-app).
-
-🌍 Multi-language and dark mode support.
+   🏨 Hotel booking system with date selection and pricing.
+   💳 Payment integration (Stripe or Razorpay).
+   🗺️ Google Maps integration for location preview.
+   📆 Booking calendar for hosts.
+   📨 Notification system (email or in-app).
+   🌍 Multi-language and dark mode support.
 
 🤝 Contributing
 
-Contributions are always welcome!
-
-Fork the repository
-
-Create a new branch (feature/your-feature)
-
-Commit your changes
-
-Push to your branch and open a Pull Request
+   Contributions are always welcome!
+   Fork the repository
+   Create a new branch (feature/your-feature)
+   Commit your changes
+   Push to your branch and open a Pull Request
 
 🪪 License
 
-You are free to use, modify, and distribute this project for learning or personal purposes.
+   You are free to use, modify, and distribute this project for learning or personal purposes.
 
 👨‍💻 Author
 
-**Aditya Chaudhary**  
-BN College Of Engineering And Technology Lucknow– CSE (AI & ML)
-📧 Email: [adityanshu445@gmail.com](mailto:adityanshu445@gmail.com)  
-🌐 GitHub: [Adityanshu45](https://github.com/Adityanshu45)  
-🚀 Live Project: [https://wanderlust-4g2n.onrender.com/listings](https://wanderlust-4g2n.onrender.com/listings)
+   **Aditya Chaudhary**  
+   BN College Of Engineering And Technology Lucknow– CSE (AI & ML)
+   📧 Email: [adityanshu445@gmail.com](mailto:adityanshu445@gmail.com)  
+   🌐 GitHub: [Adityanshu45](https://github.com/Adityanshu45)  
+   🚀 Live Project: [https://wanderlust-4g2n.onrender.com/listings](https://wanderlust-4g2n.onrender.com/listings)
 
