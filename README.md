@@ -58,52 +58,64 @@ It aims to provide a smooth browsing experience , with a modern and responsive U
 ---
 ## ⚙️ Installation
 
-Clone the repository and install dependencies:
+- Clone the repository and install dependencies
+- git clone https://github.com/your-username/wanderlust.git
+- cd wanderlust
+- npm install
 
-git clone https://github.com/your-username/wanderlust.git
-cd wanderlust
-npm install
+---
 
 ## 🔐 Environment Variables
 
-CLOUD_NAME=yourCloudName
-CLOUD_API_KEY=yOUR_Cloud_API_KEY
-CLOUD_API_SECRET=Your_Api_Secret_key
-GOOGLE_MAP_TOKEN=Your_Google_Map_Token
-ATLAS_DB_URL=mongoDBURl
-SECRET=YourSecretKey
+- CLOUD_NAME=yourCloudName
+- CLOUD_API_KEY=yOUR_Cloud_API_KEY
+- CLOUD_API_SECRET=Your_Api_Secret_key
+- GOOGLE_MAP_TOKEN=Your_Google_Map_Token
+- ATLAS_DB_URL=mongoDBURl
+- SECRET=YourSecretKey
+
+---
 
 ## 🚀 Usage
 
-   Node app.js
-   and open http://localhost:8080/listings
+- Node app.js
+- Open http://localhost:8080/listings
+
+---  
 
 ## 🏗️ Future Improvements
 
-   🏨 Hotel booking system with date selection and pricing.
-   💳 Payment integration (Stripe or Razorpay).
-   🗺️ Google Maps integration for location preview.
-   📆 Booking calendar for hosts.
-   📨 Notification system (email or in-app).
-   🌍 Multi-language and dark mode support.
+- 🏨 Hotel booking system with date selection and pricing.
+- 💳 Payment integration (Stripe or Razorpay).
+- 🗺️ Google Maps integration for location preview.
+- 📆 Booking calendar for hosts.
+- 📨 Notification system (email or in-app).
+- 🌍 Multi-language and dark mode support.
+
+---
 
 ## 🤝 Contributing
 
-   Contributions are always welcome!
-   Fork the repository
-   Create a new branch (feature/your-feature)
-   Commit your changes
-   Push to your branch and open a Pull Request
+- Contributions are always welcome!
+- Fork the repository
+- Create a new branch (feature/your-feature)
+- Commit your changes
+- Push to your branch and open a Pull Request
+
+---
 
 ## 🪪 License
 
-   You are free to use, modify, and distribute this project for learning or personal purposes.
+- You are free to use, modify, and distribute this project for learning or personal purposes.
+
+---
 
 ## 👨‍💻 Author
 
-   **Aditya Chaudhary**  
-   BN College Of Engineering And Technology Lucknow– CSE (AI & ML)
-   📧 Email: [adityanshu445@gmail.com](mailto:adityanshu445@gmail.com)  
-   🌐 GitHub: [Adityanshu45](https://github.com/Adityanshu45)  
-   🚀 Live Project: [https://wanderlust-4g2n.onrender.com/listings](https://wanderlust-4g2n.onrender.com/listings)
+**Aditya Chaudhary**                                                                                                      
+ BN College Of Engineering And Technology Lucknow– CSE (AI & ML)
+
+   - 📧 Email: [adityanshu45@gmail.com](mailto:adityanshu45@gmail.com)  
+   - 🌐 GitHub: [Adityanshu45](https://github.com/Adityanshu45)  
+   - 🚀 Live Project: [https://wanderlust-4g2n.onrender.com/listings](https://wanderlust-4g2n.onrender.com/listings)
 
