@@ -2,7 +2,7 @@
 
 **Live Demo:** [https://wanderlust-4g2n.onrender.com/listings](https://wanderlust-4g2n.onrender.com/listings)
 
-Wanderlust is a full-stack web application inspired by Airbnb — allowing users to **list properties (homes, villas, or apartments)**, **browse stays**, and **share reviews**.  
+Wanderlust is a full-stack web application  — allowing users to **list properties (homes, villas, or apartments)**, **browse stays**, and **share reviews**.  
 It’s built with the goal of creating a simple, clean, and extensible travel-stay platform where new features like **hotel booking, maps integration, and payment systems** can easily be added in the future.
 
 ---
