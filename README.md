@@ -1,4 +1,4 @@
-# 🏡 Wanderlust — Airbnb-Style Travel Listing Web App
+# 🏡 Wanderlust — Travel Listing Web App
 
 **Live Demo:** [https://wanderlust-4g2n.onrender.com/listings](https://wanderlust-4g2n.onrender.com/listings)
 
