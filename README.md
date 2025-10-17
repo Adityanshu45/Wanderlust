@@ -58,9 +58,6 @@ It aims to provide a smooth browsing experience , with a modern and responsive U
 ---
 ## ⚙️ Installation
 
-Clone the repository and install dependencies:
-
-```bash
 git clone https://github.com/your-username/wanderlust.git
 cd wanderlust
 npm install
@@ -108,3 +105,8 @@ SECRET=YourSecretKey
    🌐 GitHub: [Adityanshu45](https://github.com/Adityanshu45)  
    🚀 Live Project: [https://wanderlust-4g2n.onrender.com/listings](https://wanderlust-4g2n.onrender.com/listings)
 
+
+
+Clone the repository and install dependencies:
+
+```bash
