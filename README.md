@@ -58,11 +58,13 @@ It aims to provide a smooth browsing experience , with a modern and responsive U
 ---
 ## ⚙️ Installation
 
+Clone the repository and install dependencies:
+
 git clone https://github.com/your-username/wanderlust.git
 cd wanderlust
 npm install
 
-🔐 Environment Variables
+## 🔐 Environment Variables
 
 CLOUD_NAME=yourCloudName
 CLOUD_API_KEY=yOUR_Cloud_API_KEY
@@ -71,12 +73,12 @@ GOOGLE_MAP_TOKEN=Your_Google_Map_Token
 ATLAS_DB_URL=mongoDBURl
 SECRET=YourSecretKey
 
-🚀 Usage
+## 🚀 Usage
 
    Node app.js
    and open http://localhost:8080/listings
 
-🏗️ Future Improvements
+## 🏗️ Future Improvements
 
    🏨 Hotel booking system with date selection and pricing.
    💳 Payment integration (Stripe or Razorpay).
@@ -85,7 +87,7 @@ SECRET=YourSecretKey
    📨 Notification system (email or in-app).
    🌍 Multi-language and dark mode support.
 
-🤝 Contributing
+## 🤝 Contributing
 
    Contributions are always welcome!
    Fork the repository
@@ -93,11 +95,11 @@ SECRET=YourSecretKey
    Commit your changes
    Push to your branch and open a Pull Request
 
-🪪 License
+## 🪪 License
 
    You are free to use, modify, and distribute this project for learning or personal purposes.
 
-👨‍💻 Author
+## 👨‍💻 Author
 
    **Aditya Chaudhary**  
    BN College Of Engineering And Technology Lucknow– CSE (AI & ML)
@@ -105,8 +107,3 @@ SECRET=YourSecretKey
    🌐 GitHub: [Adityanshu45](https://github.com/Adityanshu45)  
    🚀 Live Project: [https://wanderlust-4g2n.onrender.com/listings](https://wanderlust-4g2n.onrender.com/listings)
 
-
-
-Clone the repository and install dependencies:
-
-```bash
