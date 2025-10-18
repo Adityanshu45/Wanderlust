@@ -19,6 +19,7 @@ It’s built with the goal of creating a simple, clean, and extensible travel-st
 - [Future Improvements](#future-improvements)
 - [Contributing](#contributing)
 - [License](#license)
+- [What I Learned](#What-I-Learned)
 - [Author](#author)
 
 ---
