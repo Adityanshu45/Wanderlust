@@ -10,6 +10,7 @@ It’s built with the goal of creating a simple, clean, and extensible travel-st
 ## 🧭 Table of Contents
 
 - [Overview](#overview)
+- [Demo](#-demo)
 - [Features](#features)
 - [Tech Stack](#tech-stack)
 - [Installation](#installation)
@@ -30,6 +31,16 @@ Owners can list their homes with descriptions and images, while users can explor
 It aims to provide a smooth browsing experience , with a modern and responsive UI.
 
 ---
+
+## 🎥 Demo
+
+### 🏡 Homepage
+![Homepage Screenshot](./public/images/hompage.jpeg)
+
+### 🏠 Listing Details
+![Listing Screenshot](./public/images/listing.jpeg)
+
+
 
 ## ✨ Features
 
@@ -59,7 +70,7 @@ It aims to provide a smooth browsing experience , with a modern and responsive U
 ## ⚙️ Installation
 
 - Clone the repository and install dependencies
-- git clone https://github.com/your-username/wanderlust.git
+- git clone https://github.com/Adityanshu45/Wanderlust
 - cd wanderlust
 - npm install
 
@@ -85,12 +96,11 @@ It aims to provide a smooth browsing experience , with a modern and responsive U
 
 ## 🏗️ Future Improvements
 
-- 🏨 Hotel booking system with date selection and pricing.
-- 💳 Payment integration (Stripe or Razorpay).
-- 🗺️ Google Maps integration for location preview.
-- 📆 Booking calendar for hosts.
-- 📨 Notification system (email or in-app).
-- 🌍 Multi-language and dark mode support.
+- [ ] 🏨 Hotel booking with availability calendar (High Priority)
+- [ ] 💳 Stripe/Razorpay payment integration (Medium Priority)
+- [ ] 🗺️ Google Maps location previews (High Priority)
+- [ ] 📧 Email notifications (Medium Priority)
+- [ ] 🌙 Dark mode and multi-language support (Low Priority)
 
 ---
 
@@ -107,6 +117,15 @@ It aims to provide a smooth browsing experience , with a modern and responsive U
 ## 🪪 License
 
 - You are free to use, modify, and distribute this project for learning or personal purposes.
+
+---
+
+## 📚 What I Learned
+- Implementing CRUD operations using Express and Mongoose.
+- Managing authentication and authorization using Passport.js.
+- Handling file uploads via Cloudinary API.
+- Structuring scalable MVC applications.
+- Deploying Node.js apps using Render and MongoDB Atlas.
 
 ---
 
