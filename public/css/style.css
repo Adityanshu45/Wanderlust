@@ -21,9 +21,18 @@ body{
 }
 
 .search{
+    flex: 1;
     display: flex;
-    margin-left: 20rem !important;
+    justify-content: center;
 }
+
+.search form {
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  justify-content: center;
+}
+
 .search-btn{
     background-color: #fe424d !important;
     color: white !important;
@@ -173,28 +182,29 @@ body{
     
 /* Media query */
 
-@media(max-width:600px){
+@media(max-width:768px){
     .search{
-        margin: 0rem;
+        justify-content: flex-start;
+        margin: 0;
     }
     .navbar-nav .explore{
         display: none !important;
     }
     .search-input{
-        width: 9rem !important;
+        width: 8rem !important;
         padding-left: 1rem !important;
     }
     .search-btn{
-        margin: 0rem 1rem 0rem 0rem !important;
+        margin:0%;
         padding: 0% !important;
-        width: 6rem !important;
+        width: 5.5rem !important;
     }
     .navbar-brand{
         margin: 0rem !important;
     }
 }
 
-@media(max-width :392px){
+@media(max-width :353px){
     .navbar-brand{
         display: none !important;
     }
@@ -220,4 +230,9 @@ body{
 
 .show-signUp{
     margin: 1rem !important;
+}
+
+
+.navbar-collapse{
+    flex-grow: 0 !important;
 }
